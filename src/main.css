@@ -1,0 +1,104 @@
+
+:root{
+    --main-red: #fe938c;
+    --bg-grey: #eeeeee;
+}
+
+#index{
+}
+
+h1 {
+    font-family: Overpass;
+}
+
+p {
+    font-family: Open Sans;
+}
+
+.section-one-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.container-bg {
+  z-index: -3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fe938c;
+  transform: skewY(6deg);
+  transform-origin: bottom right;    
+    
+}
+
+.section-left {
+    display: flex;
+    flex-direction:column;
+    color: white;
+
+}
+
+#header-title {
+    font-size: 100px;
+    margin-bottom: 0em;
+
+
+}
+
+.section-right {
+    display: flex;
+        margin-left: 10em
+}
+
+img {
+    height: 40vh;
+}
+
+#index-styling {
+    color: white;
+}
+
+.header-text {
+    font-size: 1.4em;
+
+}
+
+.section-two-container {
+    
+    
+}
+
+.case-study {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10em;
+}
+
+.case-study-text {
+    flex-direction: row;
+}
+
+.case-study-image {
+    flex-direction: row;
+}
+#onboarding-ui {
+    background-color: black;
+    color: white;
+    
+}
+
+.footer {
+    background-color: var(--bg-grey);
+    padding: 2em;
+    font-family: Overpass;
+}
+
+
